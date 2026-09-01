@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.venv/
+venv/
+.env
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Project outputs
+*.json
+*.txt
+!README.md
+!requirements.txt
+!setup_dependencies.py
+
+# Model / large artifacts
+models/
+checkpoints/
+pruned_model/
+*.bin
+*.safetensors
+*.ckpt
+*.pt
+*.pth
+
+# Local dependency clones
+.local_deps/
+importedrepos/
+reposfromgithub/
